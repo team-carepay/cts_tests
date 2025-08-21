@@ -44,11 +44,11 @@ mvn spring-boot:run
 
 # Your tasks are as follows.
 
-Fork this repo, and make sure to work ina branch. You will submit you work as a PR against the master branch to allow
-reviewers to compare your changes with the master branch. DO NOT merge. your work to the master branch.
+Fork this repo, and make sure to work in a branch. You will submit you work as a PR against the master branch to allow
+reviewers to compare your changes with the master branch. DO NOT merge your work to the master branch.
 Generally, this project has many bugs you need to find and fix after you've implemented the changes above.
 
-1. Complete implement the addItem controller method with the below spec
+1. Complete implementation of the addItem controller method with the below spec
 
 ### Add Item to Claim
 
