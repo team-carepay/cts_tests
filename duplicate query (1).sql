@@ -1,0 +1,11 @@
+WITH PAYER_NAME AS (
+    SELECT
+        NAME,
+        COVER_ID,
+        ROW_NUMBER() OVER (PARTITION BY COVER_ID, NAME ORDER BY NAME) AS rn
+    FROM
+        claims
+)
+SELECT NAME
+FROM PAYER_NAME
+WHERE rn > 1;
